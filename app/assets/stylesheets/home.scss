@@ -1,0 +1,110 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.profile{
+	width: 100%;
+	height: 100%;
+}
+.profile-title{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 100px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-left:17%;
+}
+.flex > div {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  background-color: #fff;
+}
+.NAYEON{
+	width:300px;
+	height:300px;
+	background-image: image-url("NAYEON.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 10px;
+	margin-bottom:10px;
+}
+.JEONGYEON{
+	width:300px;
+	height:300px;
+	background-image: image-url("JEONGYEON.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 5px;
+	margin-bottom:10px;
+}
+.MOMO{
+	width:300px;
+	height:300px;
+	background-image: image-url("MOMO.jpg");
+	background-position: center top;
+	background-size: cover;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+.SANA{
+	width:300px;
+	height:300px;
+	background-image: image-url("SANA.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 10px;
+	margin-bottom:10px;
+}
+.JIHYO{
+	width:300px;
+	height:300px;
+	background-image: image-url("JIHYO.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 5px;
+	margin-bottom:10px;
+}
+.MINA{
+	width:300px;
+	height:300px;
+	background-image: image-url("MINA.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+.DAHYUN{
+	width:300px;
+	height:300px;
+	background-image: image-url("DAHYUN.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 10px;
+}
+.CHAEYOUNG{
+	width:300px;
+	height:300px;
+	background-image: image-url("CHAEYOUNG.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 5px;
+}
+.TZUYU{
+	width:300px;
+	height:300px;
+	background-image: image-url("TZUYU.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin-left:10px;
+}

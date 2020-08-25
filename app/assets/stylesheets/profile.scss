@@ -1,0 +1,133 @@
+// Place all the styles related to the profile controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.wrap{
+	width:100%;
+}
+.nayeon{
+	height:1000px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+.nayeon-photo{
+	background-image: image-url("NA.jpg");
+	background-position: center top;
+	background-size: cover;
+	height:1000px;
+	width:35%;
+	float: right;
+}
+.jeongyeon{
+	height:1000px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+.jeongyeon-photo{
+	background-image: image-url("JEONGYEON.jpg");
+	background-position: center left;
+	background-size: cover;
+	height:1000px;
+	width:35%;
+	float: right;
+}
+.momo{
+	height:1000px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+.momo-photo{
+	background-image: image-url("MOMO.jpg");
+	background-position: center left;
+	background-size: cover;
+	height:1000px;
+	width:35%;
+	float: right;
+}
+.sana{
+	height:1000px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+.sana-photo{
+	background-image: image-url("SANA.jpg");
+	background-position: center ;
+	background-size: cover;
+	height:1000px;
+	width:35%;
+	float: right;
+}
+.jihyo{
+	height:1000px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+.jihyo-photo{
+	background-image: image-url("JIHYO.jpg");
+	background-position: center ;
+	background-size: cover;
+	height:1000px;
+	width:35%;
+	float: right;
+}
+.mina{
+	height:1000px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+.mina-photo{
+	background-image: image-url("MINA.jpg");
+	background-position: center ;
+	background-size: cover;
+	height:1000px;
+	width:35%;
+	float: right;
+}
+.dahyun{
+	height:1000px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+.dahyun-photo{
+	background-image: image-url("DAHYUN.jpg");
+	background-position: center;
+	background-size: cover;
+	height:1000px;
+	width:40%;
+	float: right;
+}
+.chaeyoung{
+	height:1000px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+.chaeyoung-photo{
+	background-image: image-url("CHAEYOUNG.jpg");
+	background-position: center;
+	background-size: cover;
+	height:1000px;
+	width:35%;
+	float: right;
+}
+.tzuyu{
+	height:1000px;
+	background-color:#AFEEEE;
+	width:100%;
+}
+.tzuyu-photo{
+	background-image: image-url("TZUYU.jpg");
+	background-position: center;
+	background-size: cover;
+	height:1000px;
+	width:35%;
+	float: right;
+}
