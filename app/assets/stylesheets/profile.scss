@@ -15,119 +15,157 @@
 	width:100%;
 }
 .nayeon{
-	height:1000px;
+	height:800px;
 	background-color:#AFEEEE;
-	width:100%;
+	float: left;
+	width:67%;
 }
 .nayeon-photo{
 	background-image: image-url("NA.jpg");
 	background-position: center top;
 	background-size: cover;
-	height:1000px;
-	width:35%;
+	height:800px;
+	width:33%;
 	float: right;
 }
 .jeongyeon{
-	height:1000px;
+	height:800px;
 	background-color:#AFEEEE;
-	width:100%;
+	width: 67%;
+	float: left;
 }
 .jeongyeon-photo{
 	background-image: image-url("JEONGYEON.jpg");
 	background-position: center left;
 	background-size: cover;
-	height:1000px;
-	width:35%;
+	height: 800px;
+	width: 33%;
 	float: right;
 }
 .momo{
-	height:1000px;
-	background-color:#AFEEEE;
-	width:100%;
+	height: 800px;
+	background-color: #AFEEEE;
+	width: 67%;
+	float: left;
 }
 .momo-photo{
 	background-image: image-url("MOMO.jpg");
 	background-position: center left;
 	background-size: cover;
-	height:1000px;
-	width:35%;
+	height: 800px;
+	width: 33%;
 	float: right;
 }
 .sana{
-	height:1000px;
-	background-color:#AFEEEE;
-	width:100%;
+	height: 800px;
+	background-color: #AFEEEE;
+	width: 67%;
+	float: left;
 }
 .sana-photo{
 	background-image: image-url("SANA.jpg");
 	background-position: center ;
 	background-size: cover;
-	height:1000px;
-	width:35%;
+	height: 800px;
+	width: 33%;
 	float: right;
 }
 .jihyo{
-	height:1000px;
-	background-color:#AFEEEE;
-	width:100%;
+	height: 800px;
+	background-color: #AFEEEE;
+	width: 67%;
+	float: left;
 }
 .jihyo-photo{
 	background-image: image-url("JIHYO.jpg");
 	background-position: center ;
 	background-size: cover;
-	height:1000px;
-	width:35%;
+	height: 800px;
+	width: 33%;
 	float: right;
 }
 .mina{
-	height:1000px;
-	background-color:#AFEEEE;
-	width:100%;
+	height: 800px;
+	background-color: #AFEEEE;
+	width: 67%;
+	float: left;
 }
 .mina-photo{
 	background-image: image-url("MINA.jpg");
 	background-position: center ;
 	background-size: cover;
-	height:1000px;
-	width:35%;
+	height: 800px;
+	width: 33%;
 	float: right;
 }
 .dahyun{
-	height:1000px;
-	background-color:#AFEEEE;
-	width:100%;
+	height: 800px;
+	background-color: #AFEEEE;
+	width: 67%;
+	float: left;
 }
 .dahyun-photo{
 	background-image: image-url("DAHYUN.jpg");
 	background-position: center;
 	background-size: cover;
-	height:1000px;
-	width:40%;
+	height: 800px;
+	width: 33%;
 	float: right;
 }
 .chaeyoung{
-	height:1000px;
-	background-color:#AFEEEE;
-	width:100%;
+	height: 800px;
+	background-color: #AFEEEE;
+	width: 67%;
+	float: left;
 }
 .chaeyoung-photo{
 	background-image: image-url("CHAEYOUNG.jpg");
 	background-position: center;
 	background-size: cover;
-	height:1000px;
-	width:35%;
+	height: 800px;
+	width: 33%;
 	float: right;
 }
 .tzuyu{
-	height:1000px;
-	background-color:#AFEEEE;
-	width:100%;
+	height: 800px;
+	background-color: #AFEEEE;
+	width: 67%;
+	float: left;
 }
 .tzuyu-photo{
 	background-image: image-url("TZUYU.jpg");
 	background-position: center;
 	background-size: cover;
-	height:1000px;
-	width:35%;
+	height: 800px;
+	width: 33%;
 	float: right;
+}
+.name{
+	color: white;
+	font-size:70px;
+	padding-top:200px;
+	padding-left:185px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue','游ゴシック Medium', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', meiryo, sans-serif;
+}
+.japan-name{
+	color: white;
+	font-size:30px;
+	padding-left:200px;
+}
+.birthday{
+	color: white;
+	padding-left:200px;
+	padding-top:40px;
+}
+.blood-type{
+	color: white;
+	padding-left:200px;
+}
+.skill{
+	color: white;
+	padding-left:200px;
+}
+.nick-name{
+	color: white;
+	padding-left:200px;
 }
