@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# like Twice
 
-Things you may want to cover:
+## サイト概要
+2015年に韓国で結成された韓国人5人、日本人3人、台湾人1人の9人で構成された多国籍のアイドルグループ(TWICE)を紹介します。
 
-* Ruby version
+### サイトテーマ
+シンプルで使いやすくアプリケーションです。
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
