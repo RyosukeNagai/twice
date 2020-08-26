@@ -1,3 +1,43 @@
 // Place all the styles related to the video controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.video{
+	width:100%;
+}
+.left-mv{
+	width:30%;
+	float:left;
+	margin-left:90px;
+	margin-top: 10px;
+}
+.center-mv{
+	width:30%;
+	float:left;
+	margin: 0 5px;
+	margin-top: 10px;
+}
+.right-mv{
+	width:30%;
+	float:left;
+	margin-top: 10px;
+}
+.left-title{
+	margin-left:150px;
+	color:gray;
+}
+.center-title{
+	margin-left:140px;
+	color:gray;
+}
+.right-title{
+	margin-left:100px;
+	color:gray;
+}
+.left-titles{
+	margin-left:130px;
+	color:gray;
+}
+.center-titles{
+	margin-left:165px;
+	color:gray;
+}
