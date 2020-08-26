@@ -11,4 +11,12 @@ Rails.application.routes.draw do
   get 'profile/dahyun'
   get 'profile/chaeyoung'
   get 'profile/tzuyu'
+  get 'home/discography'
+  get 'discography/TWICE3'
+  get 'discography/MORE'
+  get 'discography/Feel_special'
+  get 'discography/Break_through'
+  get 'discography/Fancy_you'
+  get 'discography/Dance_the_night_away'
+  get 'home/video'
 end

@@ -1,0 +1,91 @@
+// Place all the styles related to the discography controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.TWICE3-Jacket{
+	height:800px;
+	background-image: image-url("TWICE3.jpg");
+	background-position: center;
+	background-size: cover;
+	float: left;
+	width:50%;
+}
+.MORE-Jacket{
+	height:800px;
+	background-image: image-url("MORE2.jpg");
+	background-position: center top;
+	background-size: cover;
+	float: left;
+	width:50%;
+}
+.Feel-Jacket{
+	height:800px;
+	background-image: image-url("feel3.jpg");
+	background-position: center top;
+	background-size: cover;
+	float: left;
+	width:50%;
+}
+.Break-Jacket{
+	height:800px;
+	background-image: image-url("break1.jpg");
+	background-position: center top;
+	background-size: cover;
+	float: left;
+	width:50%;
+}
+.Fancy-Jacket{
+	height:800px;
+	background-image: image-url("fancy1.jpg");
+	background-position: center top;
+	background-size: cover;
+	float: left;
+	width:50%;
+}
+.Dance-Jacket{
+	height:800px;
+	background-image: image-url("dance.jpg");
+	background-position: center top;
+	background-size: cover;
+	float: left;
+	width:50%;
+}
+.Jacket{
+	height:800px;
+	width:10%;
+	float: right;
+}
+.blank{
+	height:800px;
+	width:5%;
+	float: left;
+}
+.Jacket{
+	height:800px;
+	width:35%;
+	float: left;
+}
+.Jacket-title{
+	font-size:33px;
+	margin-left:40px;
+	margin-top:20px;
+}
+.Jacket-day{
+	margin-left:42px;
+	color: gray;
+	font-size:18px;
+}
+.Jacket-introduction{
+	margin-left:42px;
+	font-size:15px;
+	margin-top:40px;
+}
+.recorded-music{
+	margin-left:42px;
+	font-size:15px;
+	margin-top:40px;
+}
+.btn{
+	margin-left:42px;
+	font-size:15px;
+	margin-top:40px;
+}

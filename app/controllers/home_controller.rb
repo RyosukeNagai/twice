@@ -5,4 +5,10 @@ class HomeController < ApplicationController
 	def profile
 	end
 
+	def discography
+	end
+
+	def video
+	end
+	
 end

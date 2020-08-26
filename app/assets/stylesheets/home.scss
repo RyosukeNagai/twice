@@ -8,7 +8,8 @@
 .profile-title{
 	text-align: center;
 	font-size: 30px;
-	margin-top: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .flex {
   display: flex;
@@ -107,4 +108,154 @@
 	background-position: center top;
 	background-size: cover;
 	margin-left:10px;
+}
+.TWICE3{
+	width:300px;
+	height:300px;
+	background-image: image-url("TWICE3.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 10px;
+	margin-bottom:10px;
+}
+.MORE{
+	width:300px;
+	height:300px;
+	background-image: image-url("MORE.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 10px;
+	margin-bottom:10px;
+}
+.Feel-special{
+	width:300px;
+	height:300px;
+	background-image: image-url("feel.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 10px;
+	margin-bottom:10px;
+}
+.Break-through{
+	width:300px;
+	height:300px;
+	background-image: image-url("break1.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 10px;
+	margin-bottom:10px;
+}
+.Fancy-you{
+	width:300px;
+	height:300px;
+	background-image: image-url("fancy.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	margin: 0px 10px;
+	margin-bottom:10px;
+}
+.Dance-the-night-away{
+	width:300px;
+	height:300px;
+	background-image: image-url("dance2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0px 10px;
+	margin-bottom:10px;
+}
+.video{
+	margin-top:25px;
+	width:100%;
+	height:567px;
+}
+.landing_video{
+	float:left;
+}
+.news{
+	width:30%;
+	background-image: image-url("pink1.jpg");
+	background-position: bottom;
+	background-size: cover;
+	height:567px;
+	float:right;
+	padding-top:50px;
+}
+.news-title{
+	color:white;
+	font-size:40px;
+	margin-left:24%;
+	margin-top:50px;
+}
+.news-body{
+	color:white;
+	font-size:32px;
+	margin-left:10%;
+	margin-top:40px;
+}
+.news-bodys{
+	color:white;
+	font-size:32px;
+	margin-left:35%;
+	margin-top:30px;
+}
+.about{
+	width: 100%;
+	margin-top:100px;
+}
+.twice-about{
+	background-image: image-url("twice7.jpg");
+	background-position: center;
+	background-size: cover;
+	width:50%;
+	height:555px;
+	margin-left:50px;
+	float:left;
+}
+.twice-abouts{
+	background-image: image-url("twice2.jpg");
+	background-position: center;
+	background-size: cover;
+	width:50%;
+	height:475px;
+	margin-left:50px;
+	float:left;
+	margin-top:10px;
+}
+.about-title{
+	width:42%;
+	height:1040px;
+	background-color:#66CDAA;
+	float:right;
+	margin-right:50px;
+	margin-left:2px;
+	padding-top:50px;
+}
+.about-body{
+	color:white;
+	font-size:40px;
+	margin-left:25%;
+}
+.about-bodys{
+	color:white;
+	margin-left:5%;
+	margin-top:40px;
+	font-size:15px;
+}
+.member-profile{
+	padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    width:170px;
+    margin-top:50px;
+    margin-left:210px;
 }
