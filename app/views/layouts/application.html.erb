@@ -7,33 +7,17 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     <meta name=”viewport” content=”width=device-width, initial-scale=1”>
   </head>
 
   <body>
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="col-xs-2">
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to ' HOME', root_path, class:"glyphicon",style:"color:black;"%></li>
-          </ul>
-        </div>
-        <div class="col-xs-2">
-          <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to ' PROFILE',  home_profile_path, class:"glyphicon",style:"color:black;" %></li>
-        </div>
-      </ul>
-        <div class="col-xs-2">
-          <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to ' DISCOGRAPHY ',  home_discography_path, class:"glyphicon",style:"color:black;" %></li>
-        </div>
-          </ul>
-          <div class="col-xs-2">
-          <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to ' VIDEO ',  home_video_path, class:"glyphicon",style:"color:black;" %></li>
-        </div>
-          </ul>
-      </div>
-    </div>
+    <div class="container">
+  <a href="/"class="btn btn-1">HOME</a>
+  <a href="/home/profile"class="btn btn-2">PROFILE</a>
+  <div class="center"></div>
+  <a href=" /home/discography"class="btn btn-3">DISCOGRAPHY</a> 
+  <a href="/home/video"class="btn btn-4">VIDEO</a> 
+</div>
     <%= yield %>
   </body>
 </html>

@@ -1,8 +1,8 @@
-<div class="profile-title">
-		<span style="border-bottom: solid 1px black;">TWICE♡</span>
+<div class="profile-title" id="hoge">
+		<span style="border-bottom: solid 1px black;"><b>TWICE♡</b></span>
 </div>
 	<div class="video">
-		<%= video_tag "FANCY1.mp4", class: "landing_video", loop: true, autoplay: true, muted: true, style:"width:70%;"%>
+		<%= video_tag "TEASER.mp4", class: "landing_video", loop: true, autoplay: true, muted: true, style:"width:70%;"%>
 		<div class="news">
 			<span class="news-title"style="border-bottom: solid 1px white;"><b>NEWS</b>‘‘ twice ‘‘</span>
 			<p class="news-body">
@@ -47,4 +47,12 @@
 		</div>
 		<div class="twice-abouts"></div>
 	</div>
+
+<script>
+  $(function(){
+    $("b").hover(function(){
+      $("#hoge").css("color", "rgba(255,0,0,0.4)");
+    });
+  });
+</script>
 

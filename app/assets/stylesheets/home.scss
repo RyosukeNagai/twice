@@ -1,13 +1,15 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.profile{
-	width: 100%;
-	height: 100%;
+#profile{
+	background-image: image-url("twice-logos.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .profile-title{
 	text-align: center;
-	font-size: 30px;
+	font-size: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -16,6 +18,7 @@
   flex-wrap: wrap;
   width: 1000px;
   margin-left:17%;
+  padding-top: 20px;
 }
 .flex > div {
   width: 250px;
@@ -260,3 +263,4 @@
     margin-left:210px;
     padding-top:15px;
 }
+

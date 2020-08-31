@@ -1,5 +1,5 @@
-<div class="profile-title">
-	<span style="border-bottom: solid 1px black;">VIDEO</span>
+<div class="profile-title" id="hoge">
+	<span style="border-bottom: solid 1px black;"><b>VIDEO</b></span>
 </div>
 <div class="video">
 		<div class="left-mv">
@@ -39,3 +39,11 @@
 			<iframe width="400" height="400" src="https://www.youtube.com/embed/M4pk0Wx372w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 </div>
+
+<script>
+  $(function(){
+    $("b").hover(function(){
+      $("#hoge").css("color", "#00cc66");
+    });
+  });
+</script>

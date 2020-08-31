@@ -1,6 +1,6 @@
 <div class="profile">
-	<div class="profile-title">
-		<span style="border-bottom: solid 1px black;">PROFILE</span>
+	<div class="profile-title" id="hoge">
+		<span style="border-bottom: solid 1px black;"><b>PROFILE</b></span>
 	</div>
 	<div class="flex">
 		<a href="http://localhost:3000/profile/nayeon">
@@ -41,3 +41,18 @@
  		</a>
 	</div>
 </div>
+
+<ul>
+<li><img src="/assets/NAYEON.jpg" alt="NAYEON"width="300" height="300"></li>
+</ul>
+
+
+<p id="hoge">赤色になるよ</p>
+
+<script>
+  $(function(){
+    $("b").hover(function(){
+      $("#hoge").css("color", "#EDD60E");
+    });
+  });
+</script>
