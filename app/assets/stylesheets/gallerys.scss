@@ -1,0 +1,22 @@
+// Place all the styles related to the Gallerys controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+label > input {
+display:none; /* アップロードボタンのスタイルを無効にする */
+}
+label {
+color: white; /* ラベルテキストの色を指定する */
+background-color: #FF6347;/* ラベルの背景色を指定する */
+padding: 10px; /* ラベルとテキスト間の余白を指定する */
+border: double 4px black;/* ラベルのボーダーを指定する */
+}
+@media screen and ( max-width:375px )
+{
+	.image
+	{
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;
+	margin-left: 35px;
+}
+}

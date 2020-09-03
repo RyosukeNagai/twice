@@ -41,3 +41,30 @@
 	margin-left:165px;
 	color:gray;
 }
+
+@media screen and ( max-width:375px )
+{
+	.left-mv
+	{
+	width:375px;
+	margin-left:0px;
+	margin-top: 10px;
+	float:none;
+	}
+	.center-mv{
+	width:375px;
+	margin: 0 0px;
+	margin-top: 10px;
+	float:none;
+	}
+	.right-mv{
+	width:375px;
+	margin-top: 10px;
+	float:none;
+	}
+	.left-title,.center-title,.right-title{
+	margin-left:0px;
+	width:100%;
+	color:gray;
+	}
+}

@@ -8,16 +8,18 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
      <meta name=”viewport” content=”width=device-width, initial-scale=1”>
+
   </head>
 
   <body>
     <div class="container">
-  <a href="/"class="btn btn-1">HOME</a>
-  <a href="/home/profile"class="btn btn-2">PROFILE</a>
-  <div class="center"></div>
-  <a href=" /home/discography"class="btn btn-3">DISCOGRAPHY</a> 
-  <a href="/home/video"class="btn btn-4">VIDEO</a> 
-</div>
+      <div class="center"></div>
+      <a href="/"class="btn btn-1">HOME</a>
+      <a href="/home/profile"class="btn btn-2">PROFILE</a>
+      <a href=" /home/discography"class="btn btn-3">DISCOGRAPHY</a> 
+      <a href="/home/video"class="btn btn-4">VIDEO</a> 
+      <a href="/gallerys"class="btn btn-5">GALLERY</a> 
+    </div>
     <%= yield %>
   </body>
 </html>

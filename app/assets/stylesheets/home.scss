@@ -17,13 +17,12 @@
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
-  margin-left:17%;
-  padding-top: 20px;
+  padding-top: 10px;
+  margin-left: 16%;
 }
 .flex > div {
-  width: 250px;
-  height: 250px;
-  margin: 10px;
+  width: 300px;
+  height: 300px;
   background-color: #fff;
 }
 .NAYEON{
@@ -33,7 +32,7 @@
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	margin: 0px 10px;
+	margin: 0px 5px;
 	margin-bottom:10px;
 }
 .JEONGYEON{
@@ -52,7 +51,7 @@
 	background-image: image-url("MOMO.jpg");
 	background-position: center top;
 	background-size: cover;
-	margin-left:10px;
+	margin-left:5px;
 	margin-bottom:10px;
 }
 .SANA{
@@ -62,7 +61,7 @@
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	margin: 0px 10px;
+	margin: 0px 5px;
 	margin-bottom:10px;
 }
 .JIHYO{
@@ -82,7 +81,7 @@
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	margin-left:10px;
+	margin-left:5px;
 	margin-bottom:10px;
 }
 .DAHYUN{
@@ -92,7 +91,7 @@
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	margin: 0px 10px;
+	margin: 0px 5px;
 }
 .CHAEYOUNG{
 	width:300px;
@@ -110,7 +109,7 @@
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	margin-left:10px;
+	margin-left:5px;
 }
 .TWICE3{
 	width:300px;
@@ -192,7 +191,7 @@
 .news-title{
 	color:white;
 	font-size:40px;
-	margin-left:24%;
+	margin-left:15%;
 	margin-top:50px;
 }
 .news-body{
@@ -263,4 +262,193 @@
     margin-left:210px;
     padding-top:15px;
 }
+//profile写真
 
+.sample12 {
+	width:			300px;
+	height:			300px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.sample12 .caption {
+	width:			100%;
+	height:			100%;
+	visibility:		hidden;	/* 文字を表示しない */
+	font-size:		130%;
+	color:			#fff;
+	top:			0;
+	left:			0;
+	position:		absolute;
+	text-align:		center;
+	-webkit-transition:	all 0.4s step-end;
+	transition:		all 0.4s step-end;
+}
+.sample12:hover .caption {
+	visibility:		visible;	/* 文字を表示する */
+}
+.sample12 .caption p {
+	font-size:		150%;
+	padding-top:	120px;
+	color:			#fff;
+	opacity:		0;	/* ホバーが解除された時すぐ消えるように、文字を表示しない */
+}
+.sample12:hover .caption p {
+	opacity:		1;	/* 文字を表示する */
+}
+.sample12 .mask1, .sample12 .mask2 {
+	width:			100%;
+	height:			50%;	/* 高さは半部のサイズ */
+	position:		absolute;
+	left:			0;
+	background-color:	rgba(152,251,152,0.6);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	margin-left:5px;
+}
+.sample12 .mask1 {
+	top:			-50%;	/* 枠の上に置いて表示させない */
+}
+.sample12:hover .mask1 {
+	top:			0;	/* 下にずらして表示する */
+}
+.sample12 .mask2 {
+	bottom:			-50%;	/* 枠の下に置いて表示させない */
+}
+.sample12:hover .mask2 {
+	bottom:			0;	/* 上にずらして表示する */
+}
+.sample13 {
+	width:			300px;
+	height:			300px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.sample13 .caption {
+	width:			100%;
+	height:			100%;
+	visibility:		hidden;	/* 文字を表示しない */
+	font-size:		130%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	text-align:		center;
+	-webkit-transition:	all 0.4s step-end;
+	transition:		all 0.4s step-end;
+}
+.sample13:hover .caption {
+	visibility:		visible;	/* 文字を表示する */
+}
+.sample13 .caption p {
+	font-size:		130%;
+	padding-top:		130px;
+	color:			#fff;
+	opacity:		0;	/* ホバーが解除された時すぐ消えるように、文字を表示しない */
+}
+
+.sample13:hover .caption p {
+	opacity:		1;	/* 文字を表示する */
+}
+.sample13 .mask1, .sample13 .mask2 {
+	width:			50%;	/* 幅は半部のサイズ */
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	background-color:	rgba(30,144,255,0.6);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+}
+.sample13 .mask1 {
+	left:			-50%;	/* 枠の左に置いて表示させない */
+}
+.sample13:hover .mask1 {
+	left:			0px;	/* 左にずらして表示する */
+}
+.sample13 .mask2 {
+	right:			-50%;	/* 枠の右に置いて表示させない */
+}
+.sample13:hover .mask2 {
+	right:			0px;	/* 右にずらして表示する */
+}
+//profile ページ
+@media screen and ( max-width:375px )
+{
+  .flex
+  {
+  width: 375px;
+  margin-left: 5%;
+  }
+}
+//top ページ
+@media screen and ( max-width:375px )
+{
+	.news
+	{
+	width: 340px;
+	height: 150px;
+	margin-top: 10px;
+	padding-top: 10px;
+	margin-right: 0px;
+
+}
+	.news-title,.news-body,.news-bodys,.video
+	{
+	margin-right: 20px;
+	font-size: 20px;
+	margin-top: 5px;
+	}
+	.news-body
+	{
+	text-align: center;
+	}
+	.landing_video
+	{
+	margin-left: 70px;
+	}
+	.video{
+	height: 330px;
+	}
+	.about-title{
+	background-color:#66CDAA;
+	width: 100%;
+	margin-right: 0px;
+	margin-left:15px;
+	float: none;
+	height: 880px;
+	}
+	.twice-about,.twice-abouts{
+	width: 375px;
+	height: 300px;
+	margin-left: 15px;
+	font-size:10px;
+	margin-top:0px;
+	}
+	.row{
+	width: 375px;
+	text-align: center;
+	}
+	.about{
+	margin-top: 0px;
+	}
+	.about-body{
+	color:white;
+	font-size:25px;
+	margin-right: 80px;
+	margin-top:15px;
+	}
+	.about-bodys{
+	margin-left:0%;
+	margin-top:15px;
+	font-size:10px;
+	}
+	.member-profile{
+	padding: 0.1em 0.1em;
+    margin: 2em 0;
+    width:150px;
+    margin-top:0px;
+    margin-left:110px;
+    padding-top:5px;
+    font-size: 12px;
+	}
+}

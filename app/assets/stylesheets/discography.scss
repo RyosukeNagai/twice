@@ -51,16 +51,6 @@
 }
 .Jacket{
 	height:800px;
-	width:10%;
-	float: right;
-}
-.blank{
-	height:800px;
-	width:5%;
-	float: left;
-}
-.Jacket{
-	height:800px;
 	width:35%;
 	float: left;
 }
@@ -88,4 +78,24 @@
 	margin-left:42px;
 	font-size:15px;
 	margin-top:40px;
+}
+@media screen and ( max-width:375px )
+{
+	.Jacket
+	{
+	height:800px;
+	width:375px;
+	margin-left: 10px;
+	}
+	.TWICE3-Jacket,.MORE-Jacket,.Feel-Jacket,.Break-Jacket,.Fancy-Jacket,.Dance-Jacket{
+	display:none;
+	}
+	.Jacket-title,.Jacket-day,.Jacket-introduction,.recorded-music{
+	margin-right: 45px;
+	}
+	.btn{
+	margin-left:42px;
+	font-size:15px;
+	margin-top:40px;
+	}
 }

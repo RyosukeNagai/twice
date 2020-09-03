@@ -19,4 +19,6 @@ Rails.application.routes.draw do
   get 'discography/Fancy_you'
   get 'discography/Dance_the_night_away'
   get 'home/video'
+
+  resources :gallerys, only: [:index, :create]
 end
